@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORTHEASTERN COLLEGE</title>
+    <!-- BOOTSTRAP CSS!!! VERSION: 5.1.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- BOOTSTRAP JQUERY!!! VERSION: 5.1.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Raleway:wght@400;700;900&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5eb818237.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a class="navbar-brand text-light" href="#title">
+                    <img src="img/nc-logo-1.png" width="70" height="70" alt="NC Logo">
+                    NC
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://icloudph.com/nc/sias/" class="nav-link">SIAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- TITLE -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>HELLO NC'IAN</h1>
+                    <p>BULOK ULS</p>
+                </div>
+
+                <!-- LOG IN SECTION -->
+                <div class="col-lg-6">
+                    <form action="logIn">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" class="form-control" id="password"
+                                    placeholder="password" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox check">
+                                <input type="checkbox" class="custom-control-input" id="tos">
+                                <label class="custom-control-label" for="tos">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-outline-light" name="loginButton">Log In</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <div class="row">
+            <div class="fbox col-lg-4">
+                <i class="fa-solid fa-location-dot fa-4x fa-bounce icon"></i>
+                <h3 class="feature-title">LOCATION</h3>
+                <p>We're located at Santiago City, Isabela.</p>
+            </div>
+            <div class="fbox col-lg-4">
+                <i class="fa-solid fa-book fa-4x fa-bounce icon"></i>
+                <h3 class="feature-title">Academics</h3>
+                <p>Northeastern College offers 12 academic courses.</p>
+            </div>
+            <div class="fbox col-lg-4">
+                <i class="fa-solid fa-graduation-cap fa-4x fa-bounce icon"></i>
+                <h3 class="feature-title">Scholarship</h3>
+                <p>Scholarships are available at Northeastern College for students who qualify.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="courses">
+        <div id="courses-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="courses-text">College of Information Technology was envisioned to the benchmark school of
+                        Information Technology in the valley</h2>
+                    <img class="courses-img" src="img/bsit.png" alt="bsit">
+                    <em>Bachelor of Science and Information Technology</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">It was envisioned to stand as one ” true mint of wisdom”
+                        this part of the region could be proud of.</h2>
+                    <img class="courses-img" src="img/cohm.png" alt="cohm">
+                    <em>College of Hospitality Management</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">The Graduate school program of the northeastern college is entrusted with
+                        the task of providing leadership.</h2>
+                    <img class="courses-img" src="img/gs.png" alt="gs">
+                    <em>Graduate School</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">THE PROGRAM IS ENVISIONED TO PRODUCE QUALITY HUMAN RESOURCES </h2>
+                    <img class="courses-img" src="img/coc.png" alt="coc">
+                    <em>College of Criminology</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">It aims to train people in business entrepreneurship and all allied
+                        concerns</h2>
+                    <img class="courses-img" src="img/caba.png" alt="caba">
+                    <em>College of Accountancy and Business Administration</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">To establish a maternity institution, providing optimum quality care on
+                        maternal and child health</h2>
+                    <img class="courses-img" src="img/bsm.png" alt="bsm">
+                    <em>College of Midwifery</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">This is a course, which aims to produce nurses who are professionally
+                        prepared to meet the needs of the
+                        people </h2>
+                    <img class="courses-img" src="img/con.png" alt="con">
+                    <em>College of Nursing</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">The College of Geodetic Engineering was envisioned to produce competitive
+                        Geodetic Engineers</h2>
+                    <img class="courses-img" src="img/ge.png" alt="ge">
+                    <em>College of Geodetic Engineering</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">Under Maintenance
+                        HAHAHA HAHAHAH HAHAHHAHA HAHAHHA HAHAHAHAHA</h2>
+                    <img class="courses-img" src="img/law.png" alt="law">
+                    <em>COLLEGE OF LAW</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">he institution envisions holistic development of the individual that will
+                        make him an effective agent</h2>
+                    <img class="courses-img" src="img/arts.png" alt="arts">
+                    <em>College of Liberal Arts</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="courses-text">The College of education believes that every individual has the teacher
+                        instinct.</h2>
+                    <img class="courses-img" src="img/coed.png" alt="coed">
+                    <em>College of Education</em>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#courses-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#courses-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <i class="fa-brands fa-twitter grupo"></i>
+        <a href="https://www.facebook.com/NCnianAko"><i class="fa-brands fa-facebook-f grupo"></i></a>
+        <i class="fa-brands fa-instagram grupo"></i>
+        <i class="fa-solid fa-envelope grupo"></i>
+        <p>© Copyright 2023 Group 1</p>
+    </footer>
+
+</body>
+
+</html>
